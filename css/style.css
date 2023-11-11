@@ -211,8 +211,8 @@ button {
 }
 
 .layout_padding {
-     padding-top: 90px;
-     padding-bottom: 0px;
+     padding-top: 10px;
+     padding-bottom: 10px;
 }
 .padding_0{
     padding: 0px;
@@ -260,6 +260,11 @@ button {
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #1b5a8d;
 }
+
+.active {
+    font-weight: bolder;
+}
+
 .banner_main{
     width: 100%;
     float: left;
@@ -288,8 +293,9 @@ button {
     padding-top: 75px;
 }
 .more_bt {
-    width: 170px;
+    width: 120px;
     float: left;
+    margin-top: 15px;
 }
 
 .more_bt a {
@@ -305,15 +311,40 @@ button {
     font-weight: bold;
 }
 .more_bt a:hover {
-    color: #000;
-    border: 2px solid #ff5a58;
+    color: #f5aad3;
+    border: 2px solid #97CBFF;
 }
 .contact_bt {
-    width: 170px;
+    width: 120px;
     float: left;
     margin-left: 15px;
+    margin-top: 15px;
 }
 .contact_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #181818;
+    border: 2px solid #5cff4ad0;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contact_bt a:hover {
+    color: #f5aad3;
+    border: 2px solid #97CBFF;
+}
+
+.contribute_bt {
+    width: 120px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.contribute_bt a {
     width: 100%;
     float: left;
     font-size: 16px;
@@ -325,10 +356,12 @@ button {
     text-transform: uppercase;
     font-weight: bold;
 }
-.contact_bt a:hover {
-    color: #181818;
-    border: 2px solid #ff5a58;
+
+.contribute_bt a:hover {
+    color: #f5aad3;
+    border: 2px solid #97CBFF;
 }
+
 .services_section {
     width: 100%;
     float: left;
@@ -370,6 +403,11 @@ button {
     color: #060606;
     margin-left: 0px;
 }
+
+.services_text {
+    margin-top: 20px;
+}
+
 .moremore_bt {
     width: 170px;
     float: left;
@@ -443,17 +481,22 @@ button {
 }
 .box_main {
     width: 100%;
+    height: 550px;
     float: left;
-    background-color: #1b5a8d;
+    background-color: #97CBFF;
     border-radius: 10px;
-    padding: 30px 0px;
+    padding: 30px 25px;
 }
-.box_main:hover{
-    background-color: #ff5a58;
+
+.box_sub {
+    width: 100%;
+    height: 550px;
+    float: left;
+    background-color: #f5aad3;
+    border-radius: 10px;
+    padding: 30px 25px;
 }
-.box_main.active {
-    background-color: #ff5a58;
-}
+
 .icon_1 {
     width: 100%;
     float: left;
@@ -464,7 +507,6 @@ button {
     width: 100%;
     float: left;
     font-size: 20px;
-    color: #ffffff;
     text-align: center;
     text-transform: uppercase;
 }
@@ -472,8 +514,7 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
-    text-align: center;
+    text-align: start;
     margin-left: 0px;
 }
 .moremore_bt_1 {
@@ -523,10 +564,10 @@ button {
     float: left;
 }
 .images_right {
-    width: 47%;
+    width: 100%;
     float: left;
-    margin-top: 70px;
-    margin-left: 12px;
+    margin-top: 150px;
+    margin-left: 10px;
 }
 
 .image {
@@ -622,7 +663,7 @@ button {
     font-weight: 600;
     color: #ffffff;
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 .team_section{
     width: 100%;
@@ -789,6 +830,7 @@ button {
     float: left;
     background-color: #121212;
     height: auto;
+    margin-top: 150px;
 }
 .about_text{
     width: 100%;
@@ -874,8 +916,7 @@ button {
 .copyright_section {
     width: 60%;
     margin: 0 auto;
-    border-top: 1px solid #fff;
-    margin-top: 55px;
+    margin-top: 10px;
     text-align: center;
 }
 .copyright_text {
