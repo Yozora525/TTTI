@@ -245,6 +245,11 @@ button {
 .logo {
     width: 25%;
     float: left;
+    margin-right: 45px;
+}
+
+.logo a img {
+    height: 75px;
 }
 
 .bg-light {
@@ -488,6 +493,10 @@ button {
     padding: 30px 25px;
 }
 
+.box_main:hover {
+    background-color: #f5aad3;
+}
+
 .box_sub {
     width: 100%;
     height: 550px;
@@ -495,6 +504,10 @@ button {
     background-color: #f5aad3;
     border-radius: 10px;
     padding: 30px 25px;
+}
+
+.box_sub:hover {
+    background-color: #97CBFF;
 }
 
 .icon_1 {
@@ -679,6 +692,7 @@ button {
 .team_section_2{
     width: 100%;
     float: left;
+    margin-top: 30px;
 }
 .image_7{
     width: 100%;
@@ -688,20 +702,33 @@ button {
 .readable_text{
     width: 100%;
     float: left;
-    font-size: 18px;
+    font-size: 25px;
     text-align: center;
     color: #060606;
     margin-left: 0px;
-    font-weight: 450;
+    font-weight: bolder;
 }
 .readable_text_1{
     width: 100%;
     float: left;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
-    color: #ff5a58;
-    margin: 0px;
-    font-weight: 450;
+    color: #060606;
+    margin-left: 0px;
+}
+.team_intro {
+    width: 100%;
+    float: left;
+    height: 150px;
+    padding: 5px;
+}
+.readable_text_2{
+    width: 100%;
+    float: left;
+    font-size: 15px;
+    text-align: start;
+    color: #060606;
+    margin: 5px;
 }
 .social_icon{
     width: 100%;
@@ -715,8 +742,58 @@ button {
 }
 .social_icon li{
     float: left;
-    padding: 20px 3px 0px 3px;
+    padding: 0px 3px 0px 3px;
 }
+
+.experience_bt {
+    width: 120px;
+    float: left;
+}
+
+.experience_bt button {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: white;
+    /* border: 2px solid #ff5a58; */
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #ff5a58;
+}
+
+.experience_bt button:hover {
+    color: #ff5a58;
+    /* border: 2px solid #97CBFF; */
+    border: 3px solid #ff5a58;
+    background-color: white;
+}
+
+dialog {
+    display: none;
+    border: 3px solid #97CBFF;
+    border-radius: 15px;
+    width: 75%;
+    height: fit-content;
+}
+
+dialog button {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #97CBFF;
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+    font-weight: bolder;
+}
+
+dialog button:hover {
+    border: 2px solid #f5aad3;
+    color: #97CBFF;
+}
+
 .client_section {
     width: 100%;
     float: left;

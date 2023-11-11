@@ -368,4 +368,16 @@ $(function () {
      });
 
 
+	const dialog = document.querySelector("dialog");
+	const showButton = document.querySelector("#Li");
+	const closeButton = document.querySelector("dialog button");
+	showButton.addEventListener("click", () => {
+		dialog.style.display = "block";
+		dialog.showModal();
+	});
+	closeButton.addEventListener("click", () => {
+		dialog.style.display = "none";
+		dialog.close();
+	});
+
 });
