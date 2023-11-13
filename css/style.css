@@ -494,7 +494,7 @@ button {
 }
 
 .box_main:hover {
-    background-color: #f5aad3;
+    /* background-color: #f5aad3; */
 }
 
 .box_sub {
@@ -526,7 +526,7 @@ button {
 .lorem_text{
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 18px;
     text-align: start;
     margin-left: 0px;
 }
@@ -541,15 +541,15 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
-    border: 2px solid #ffffff;
+    color: #000;
+    border: 2px solid #000;
     text-align: center;
     padding: 10px 0px;
     border-radius: 40px;
 }
 .moremore_bt_1 a:hover {
-    color: #ffffff;
-    border: 2px solid #ffffff;
+    color: #97CBFF;
+    border: 2px solid #97CBFF;
 }
 .project_section{
     width: 100%;
