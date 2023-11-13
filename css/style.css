@@ -794,6 +794,11 @@ dialog button:hover {
     color: #97CBFF;
 }
 
+.title {
+    font-weight: bolder;
+    text-align: center;
+}
+
 .client_section {
     width: 100%;
     float: left;

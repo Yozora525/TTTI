@@ -367,17 +367,76 @@ $(function () {
         interval: 5000
      });
 
+	 const Chen_dialog = document.querySelector("#Chen_dialog");
+	 const Chen_showButton = document.querySelector("#Chen");
+	 const Chen_closeButton = document.querySelector("#Chen_dialog button");
+	 Chen_showButton.addEventListener("click", () => {
+		Chen_dialog.style.display = "block";
+		Chen_dialog.showModal();
+	 });
+	 Chen_closeButton.addEventListener("click", () => {
+		Chen_dialog.style.display = "none";
+		Chen_dialog.close();
+	 });
 
-	const dialog = document.querySelector("dialog");
-	const showButton = document.querySelector("#Li");
-	const closeButton = document.querySelector("dialog button");
-	showButton.addEventListener("click", () => {
-		dialog.style.display = "block";
-		dialog.showModal();
+	 const Wu_dialog = document.querySelector("#Wu_dialog");
+	 const Wu_showButton = document.querySelector("#Wu");
+	 const Wu_closeButton = document.querySelector("#Wu_dialog button");
+	 Wu_showButton.addEventListener("click", () => {
+		Wu_dialog.style.display = "block";
+		Wu_dialog.showModal();
+	 });
+	 Wu_closeButton.addEventListener("click", () => {
+		Wu_dialog.style.display = "none";
+		Wu_dialog.close();
+	 });
+
+	 const Jiang_dialog = document.querySelector("#Jiang_dialog");
+	 const Jiang_showButton = document.querySelector("#Jiang");
+	 const Jiang_closeButton = document.querySelector("#Jiang_dialog button");
+	 Jiang_showButton.addEventListener("click", () => {
+		Jiang_dialog.style.display = "block";
+		Jiang_dialog.showModal();
+	 });
+	 Jiang_closeButton.addEventListener("click", () => {
+		Jiang_dialog.style.display = "none";
+		Jiang_dialog.close();
+	 });
+
+	 const Xu_dialog = document.querySelector("#Xu_dialog");
+	 const Xu_showButton = document.querySelector("#Xu");
+	 const Xu_closeButton = document.querySelector("#Xu_dialog button");
+	 Xu_showButton.addEventListener("click", () => {
+		Xu_dialog.style.display = "block";
+		Xu_dialog.showModal();
+	 });
+	 Xu_closeButton.addEventListener("click", () => {
+		Xu_dialog.style.display = "none";
+		Xu_dialog.close();
+	 });
+
+	 const Zhang_dialog = document.querySelector("#Zhang_dialog");
+	 const Zhang_showButton = document.querySelector("#Zhang");
+	 const Zhang_closeButton = document.querySelector("#Zhang_dialog button");
+	 Zhang_showButton.addEventListener("click", () => {
+		Zhang_dialog.style.display = "block";
+		Zhang_dialog.showModal();
+	 });
+	 Zhang_closeButton.addEventListener("click", () => {
+		Zhang_dialog.style.display = "none";
+		Zhang_dialog.close();
+	 });
+
+	const Li_dialog = document.querySelector("#Li_dialog");
+	const Li_showButton = document.querySelector("#Li");
+	const Li_closeButton = document.querySelector("#Li_dialog button");
+	Li_showButton.addEventListener("click", () => {
+		Li_dialog.style.display = "block";
+		Li_dialog.showModal();
 	});
-	closeButton.addEventListener("click", () => {
-		dialog.style.display = "none";
-		dialog.close();
+	Li_closeButton.addEventListener("click", () => {
+		Li_dialog.style.display = "none";
+		Li_dialog.close();
 	});
 
 });
