@@ -493,8 +493,21 @@ button {
     padding: 30px 25px;
 }
 
+.box_main_v2 {
+    width: 100%;
+    height: 550px;
+    float: left;
+    background-color: #97CBFF;
+    border-radius: 10px;
+    padding: 30px 25px;
+}
+
 .box_main:hover {
     /* background-color: ; */
+}
+
+.box_main_v2:hover {
+    background-color: #f5aad3;
 }
 
 .box_sub {
@@ -534,7 +547,6 @@ button {
     width: 170px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 30px;
 }
 
 .moremore_bt_1 a {
@@ -546,6 +558,7 @@ button {
     text-align: center;
     padding: 10px 0px;
     border-radius: 40px;
+    margin-top: 30px;
 }
 .moremore_bt_1 a:hover {
     color: #97CBFF;
